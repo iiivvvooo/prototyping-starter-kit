@@ -2,26 +2,64 @@
 
 {% block content %}
 
-  <div class="jumbotron">
-    <h1>{{ project.name }}</h1>
-    <p class="lead">{{ project.description }}</p>
-    <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-  </div>
+<div class="container">
 
-  <div class="row marketing">
-    <div class="col-lg-6">
-      <h4>HTML5 Boilerplate</h4>
-      <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Features
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.3.7</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
+                        <a href="http://getbootstrap.com/" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Nunjucks &amp; JSON Data</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>A rich and powerful templating language for JavaScript combined with structured data.</p>
+                        <a href="https://mozilla.github.io/nunjucks/" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Browsersync with Live Reload</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Time-saving synchronised browser testing.</p>
+                        <a href="https://www.browsersync.io/" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
 
-      <h4>Sass</h4>
-      <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+        <hr>
 
-      <h4>Bootstrap</h4>
-      <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-      <h4>Modernizr</h4>
-      <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-primary btn-block" href="#">Call to Action</a>
+                </div>
+            </div>
+        </div>
 
-    </div>
-  </div>
 
 {% endblock %}
