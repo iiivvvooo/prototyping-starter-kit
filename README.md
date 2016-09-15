@@ -5,7 +5,7 @@ Kickstart your frontend development workflow.
 
 ## Get Started
 * Install dependencies: ```npm install --global gulp-cli bower```
-* Clone the repository: ```git clone https://github.com/ivojacobs/front-end-kickstarter.git```
+* Clone the repository: ```git clone https://github.com/ivojacobs/frontend-kickstarter.git```
 * Run ```npm install && bower install```
 * Run ```gulp serve``` to preview and watch for changes
 * Run ```bower install --save <package>``` to install frontend dependencies
