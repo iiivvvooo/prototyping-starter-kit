@@ -1,5 +1,5 @@
 # frontend-kickstarter
-Easily get started with your frontend development workflow.
+Kickstart your frontend development workflow.
 
 ## Get Started
 * Install dependencies: ```npm install --global gulp-cli bower```
