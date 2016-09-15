@@ -1,5 +1,5 @@
 {
-  "name": "front-end-kickstarter",
+  "name": "frontend-kickstarter",
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.7",
