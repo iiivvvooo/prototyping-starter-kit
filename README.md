@@ -1,6 +1,8 @@
 # frontend-kickstarter
 Kickstart your frontend development workflow.
 
+![alt screenshot](https://raw.githubusercontent.com/ivojacobs/frontend-kickstarter/master/screenshot.png)
+
 ## Get Started
 * Install dependencies: ```npm install --global gulp-cli bower```
 * Clone the repository: ```git clone https://github.com/ivojacobs/front-end-kickstarter.git```
