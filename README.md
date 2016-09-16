@@ -1,5 +1,5 @@
 # frontend-kickstarter
-Kickstart your frontend development workflow.
+Kickstart your frontend development workflow with Gulp, Nunjucks, and Sass.
 
 ![Browser Screenshot](https://raw.githubusercontent.com/ivojacobs/frontend-kickstarter/master/screenshot.png)
 
