@@ -66,7 +66,11 @@ gulp.task('styles', () =>
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
     .pipe($.sass.sync({
-      precision: 10
+      precision: 10,
+      includePaths: [
+        // Include node packages as a souce for @import statements
+        __dirname + "/" + "node_modules/bootstrap-sass/assets/stylesheets"
+      ]
     }).on('error', $.sass.logError))
     .pipe($.autoprefixer({ browsers: ['last 2 versions'], remove: false }))
     .pipe($.sourcemaps.write('.'))

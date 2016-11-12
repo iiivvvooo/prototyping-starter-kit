@@ -11,6 +11,7 @@
     "npm": ">=3.10.5"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.17.5",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
@@ -23,8 +24,5 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0",
     "run-sequence": "^1.2.2"
-  },
-  "dependencies": {
-    "normalize.css": "^5.0.0"
   }
 }
