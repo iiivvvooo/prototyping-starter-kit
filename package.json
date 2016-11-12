@@ -2,9 +2,8 @@
   "private": true,
   "main": "",
   "scripts": {
-    "test": "gulp build",
-    "dev": "gulp",
-    "prestart": "gulp build"
+    "serve": "gulp",
+    "build": "gulp build"
   },
   "engines": {
     "node": ">=4.2.1",
@@ -13,13 +12,13 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.17.5",
-    "del": "^2.2.0",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-data": "^1.2.1",
-    "gulp-if": "^2.0.0",
-    "gulp-load-plugins": "^1.2.2",
-    "gulp-nunjucks": "^2.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nunjucks": "^2.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0",
