@@ -81,7 +81,10 @@ gulp.task('styles', () =>
 gulp.task('default', ['build'], () => {
   browserSync({
     notify: false,
-    server: 'dist'
+    server: 'dist',
+    https: false,
+    logConnections: true,
+    open: "local"
   });
 
   gulp.watch('src/styles/*.scss', ['styles']);
