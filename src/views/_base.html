@@ -7,24 +7,24 @@
   <title>{% block title %}{{ page_title }} | {{ site.title }}{% endblock %}</title>
   {% block styles %}
   {% include "components/_styles.html" %}
-  {% endblock -%}
+  {% endblock %}
 </head>
 
 <body>
 {% block header %}
 {% include "components/_header.html" %}
-{% endblock -%}
+{% endblock %}
 
-{% block main %}
+{% block content %}
 <p>This is the main content area</p>
-{% endblock -%}
+{% endblock %}
 
 {% block footer %}
 {% include "components/_footer.html" %}
-{% endblock -%}
+{% endblock %}
 
 {% block scripts %}
 {% include "components/_scripts.html" %}
-{% endblock -%}
+{% endblock %}
 </body>
 </html>

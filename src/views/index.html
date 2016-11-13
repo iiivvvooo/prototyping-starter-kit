@@ -2,26 +2,49 @@
 
 {% block title %}{{ site.title }} | {{ site.description }}{% endblock %}
 
-{% block main %}
+{% block content %}
 
 {% include "components/psk-hero/psk-hero.html" %}
 
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <h3>Gulp / Nunjucks</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Gulp</h3>
+        </div>
+        <div class="panel-body">
+          <p>Gulp is a javascript task runner that lets you automate tasks such as Bundling and minifying libraries and stylesheets.</p>
+          <a class="btn btn-default" href="http://gulpjs.com" target="_blank">http://gulpjs.com</a>
+        </div>
+      </div>
     </div>
+
     <div class="col-md-4">
-      <h3>Bootstrap / Sass</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Bootstrap</h3>
+        </div>
+        <div class="panel-body">
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web.</p>
+          <a class="btn btn-default" href="http://getbootstrap.com" target="_blank">http://getbootstrap.com</a>
+        </div>
+      </div>
     </div>
+
     <div class="col-md-4">
-      <h3>Browserync</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Nunjucks</h3>
+        </div>
+        <div class="panel-body">
+          <p>Nunjucks is a rich and Powerful language for JavaScript with block inheritance, autoescaping, macros, asynchronous control, and more.</p>
+          <a class="btn btn-default" href="https://mozilla.github.io/nunjucks" target="_blank">https://mozilla.github.io/nunjucks</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!-- /.jumbotron -->
+<!-- /.container -->
 
-<div class="container">
-<code>{{ site | dump }}</code>
-</div>
 {% endblock %}

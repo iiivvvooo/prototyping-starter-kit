@@ -2,8 +2,9 @@
 @import 'variables';
 @import 'bootstrap';
 
-// import psk-hero component
+// import Prototyping Starter Kit components
 @import '../views/components/psk-hero/psk-hero';
+@import '../views/components/psk-title/psk-title';
 
-// import dirty styles needed for your prototype
+// import Protoype hacks
 @import 'prototype';

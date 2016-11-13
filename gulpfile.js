@@ -94,7 +94,7 @@ gulp.task('default', ['build'], () => {
     open: false
   });
 
-  gulp.watch('src/styles/*.scss', ['styles']);
+  gulp.watch('src/**/*.{scss,css}', ['styles']);
   gulp.watch([
     'src/views/**/*.html',
     'src/views/data/*.json'

@@ -1,20 +1,17 @@
-.psk-hero {
+.psk-title {
   @extend .jumbotron;
   margin-top: -20px;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background: #f5f5f5;
   border-radius: 0 !important;
 }
 
-.psk-hero--container {
+.psk-title--container {
   @extend .container;
 }
 
-.psk-hero--heading {
+.psk-title--heading {
   @extend .h2;
-}
-
-.psk-hero--tagline {
-  @extend .h5;
+  margin-top: 10px;
 }

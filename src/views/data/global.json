@@ -2,11 +2,11 @@
   "site": {
     "language": "en",
     "title": "Prototyping Starter Kit",
-    "description": "Rapid prototyping using <a href=\"http://gulpjs.com/\">Gulp</a>, <a href=\"http://getbootstrap.com/\">Bootstrap</a> and <a href=\"https://mozilla.github.io/nunjucks/\">Nunjucks</a>",
-    "url": "https://github.com/ivojacobs/frontend-kickstarter/"
+    "description": "Rapid prototyping with <a href=\"http://gulpjs.com/\">Gulp</a>, <a href=\"http://getbootstrap.com/\">Bootstrap</a> and <a href=\"https://mozilla.github.io/nunjucks/\">Nunjucks</a>",
+    "url": "https://github.com/ivojacobs/prototyping-starter-kit/"
   },
   "author": {
-    "pretext": "is maintained by",
+    "description": "is maintained by",
     "name": "@ivojacobs",
     "link": "https://twitter.com/ivojacobs"
   }
