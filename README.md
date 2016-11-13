@@ -1,5 +1,5 @@
 # Prototyping Starter Kit
-Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstrap.com/) [Nunjucks](https://mozilla.github.io/nunjucks/).
+Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstrap.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/).
 
 ![Browser Screenshot](https://raw.githubusercontent.com/ivojacobs/prototyping-starter-kit/master/screenshot.png)
 
