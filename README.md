@@ -1,9 +1,9 @@
-# frontend-kickstarter
-Kickstart your frontend development workflow with [Gulp](http://gulpjs.com/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [Sass](http://sass-lang.com/).
+# Prototyping Starter Kit
+Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstrap.com/) [Nunjucks](https://mozilla.github.io/nunjucks/).
 
-![Browser Screenshot](https://raw.githubusercontent.com/ivojacobs/frontend-kickstarter/master/screenshot.png)
+![Browser Screenshot](https://raw.githubusercontent.com/ivojacobs/prototyping-starter-kit/master/screenshot.png)
 
 ## Get Started
 * Clone or fork this repository
 * Run ```npm install```
-* Run ```gulp``` or ```npm run dev``` to start developing
+* Run ```gulp``` to start developing
