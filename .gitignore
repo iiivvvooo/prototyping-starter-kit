@@ -1,6 +1,29 @@
-.DS_Store
-node_modules
+# Ignore all hidden dotfiles
+.*
+
+# Whitelist useful dotfiles
+!/.scss-linters/
+!/.babelrc
+!/.editorconfig
+!/.eslintignore
+!/.eslintrc.yml
+!/.gitattributes
+!/.gitignore
+!/.hound.yml
+!/.scss-lint.yml
+!/.sldsrc.defaults.yml
+!/.stylestatsrc
+!/.travis.yml
+
+# Add a .gitkeep file in an empty
+# directory to check it in the repository
+!.gitkeep
+
+# Ignore modules
+/node_modules
+
+# Ignore distribution folder
 dist
-.tmp
-bower_components
-test/bower_components
+
+# Ignore logs
+*.log
