@@ -5,6 +5,8 @@ Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstr
 
 ![Screenshot - Atom](https://raw.githubusercontent.com/ivojacobs/prototyping-starter-kit/master/screenshot-atom.png)
 
+![Screenshot - Atom](https://raw.githubusercontent.com/ivojacobs/prototyping-starter-kit/master/screenshot-terminal.png)
+
 ## Get Started
 * Clone or fork this repository
 * Run ```npm install```
