@@ -9,3 +9,6 @@ Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstr
 * Clone or fork this repository
 * Run ```npm install```
 * Run ```gulp``` to start developing your prototype
+
+## About
+Prototyping Starter Kit is maintained by [@ivojacobs](https://twitter.com/ivojacobs)
