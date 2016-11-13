@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.language }}">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ project.name }}</title>
-  <link rel="stylesheet" href="styles/main.css">
+  <title>{% block title %}{{ page_title }} | {{ site.title }}{% endblock %}</title>
+  {% block styles %}
+  {% include "components/_styles.html" %}
+  {% endblock -%}
 </head>
 
 <body>
-  
-  {% include "_header.html" %}
+{% block header %}
+{% include "components/_header.html" %}
+{% endblock -%}
 
-  {% block content %}{% endblock %}
+{% block main %}
+<p>This is the main content area</p>
+{% endblock -%}
 
-  {% include "_footer.html" %}
+{% block footer %}
+{% include "components/_footer.html" %}
+{% endblock -%}
 
-  <script src="scripts/main.js"></script>
-
+{% block scripts %}
+{% include "components/_scripts.html" %}
+{% endblock -%}
 </body>
 </html>

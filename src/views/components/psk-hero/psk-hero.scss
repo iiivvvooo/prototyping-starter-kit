@@ -1,0 +1,9 @@
+// Custom BEM Component
+.psk-hero {
+  @extend .jumbotron;
+  background: #f5f5f5;
+}
+
+.psk-hero-content {
+  @extend .container;
+}
