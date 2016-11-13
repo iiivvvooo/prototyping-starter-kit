@@ -1,4 +1,3 @@
-
 'use strict';
 
 const gulp = require('gulp');
@@ -26,10 +25,9 @@ gulp.task('favicon', () =>
     .pipe(gulp.dest('dist'))
 );
 
-// Get data from the corresponding filename
-// e.g. inject data/foo.json into foo.html
 const getData = (file) => {
-  const dataPath = path.resolve('./src/views/data/' + path.basename(file.path, '.html') + '.json')
+  //const dataPath = path.resolve('./src/views/data/' + path.basename(file.path, '.html') + '.json')
+  const dataPath = 'src/views/data/global.json'
   let data = {};
 
   try {
@@ -47,6 +45,7 @@ gulp.task('views', () =>
       'src/views/**/*.html',
       '!src/views/**/_*.html'
     ], { base: 'src/views' })
+    .pipe($.useref())
     .pipe($.data(getData))
     .pipe($.nunjucks.compile())
     .pipe(gulp.dest('dist'))
@@ -57,12 +56,15 @@ gulp.task('scripts', () =>
     .src([
       'src/scripts/**/*.js'
     ], { base: 'src' })
+    .pipe($.plumber())
+    .pipe($.sourcemaps.init())
+    .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('dist/'))
 );
 
 gulp.task('styles', () =>
   gulp
-    .src('src/styles/*.scss')
+    .src('src/styles/*.{scss,css}')
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
     .pipe($.sass.sync({
@@ -81,10 +83,15 @@ gulp.task('styles', () =>
 gulp.task('default', ['build'], () => {
   browserSync({
     notify: false,
-    server: 'dist',
+    server: {
+        baseDir: "dist",
+        routes: {
+            "/node_modules": "node_modules"
+        }
+    },
     https: false,
     logConnections: true,
-    open: "local"
+    open: false
   });
 
   gulp.watch('src/styles/*.scss', ['styles']);
@@ -97,11 +104,8 @@ gulp.task('default', ['build'], () => {
   gulp.watch([
     'dist/**/*.html',
     'dist/scripts/**/*.js',
-
-    // Note: we're not watching icons and fonts changes,
-    // as they're slowing down the task
     'dist/assets/*.{woff,woff2,txt,jpg,png,gif,svg}',
-    'dist/assets/styles/*.css'
+    'dist/styles/*.css'
   ]).on('change', browserSync.reload);
 });
 
