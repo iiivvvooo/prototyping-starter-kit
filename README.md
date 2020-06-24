@@ -11,4 +11,4 @@ Rapid prototyping with [Gulp](http://gulpjs.com/), [Bootstrap](http://getbootstr
 * Run ```gulp``` to start developing your prototype
 
 ## About
-Prototyping Starter Kit is maintained by [@ivojacobs](https://twitter.com/ivojacobs), User Experience Engineer at [SprintEins](https://sprinteins.com)
+Prototyping Starter Kit is maintained by [@ivojacobs](https://twitter.com/ivojacobs), User Experience Designer at [SprintEins](https://sprinteins.com)
